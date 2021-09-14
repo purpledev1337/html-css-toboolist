@@ -4,16 +4,27 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgba(221, 226, 230, 0.829);
+}
+
+/* header logo */
+#banner {
+    height: 120px;
+    background-color: white;
+    padding: 10px;
+}
+
+#logoimg {
+    height: 100px;
+    vertical-align: middle;
+}
+
 #logotext {
     display: inline-block;
     font-size: 60px;
     height: 100px;
     line-height: 100px;
     vertical-align: middle;
-    margin-bottom: 80px;
 }
 
-#logoimg {
-    margin-left: 25px;
-    height: 80px;
-}
