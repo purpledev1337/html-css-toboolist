@@ -28,3 +28,35 @@ body {
     vertical-align: middle;
 }
 
+/* main */
+.container {
+    padding: 2% 20% 0;
+}
+
+.buttonbox {
+    background-color: white;
+    padding: 20px 50px;
+}
+
+.button {
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+#taskbutton {
+    background-color: rgb(29, 115, 172);
+    color: white;
+
+}
+
+#sectionbutton {
+    color: lightgray;
+    border: solid 1px lightgray;
+}
+
+
+/* .contentbox {
+    background-color: white;
+} */
