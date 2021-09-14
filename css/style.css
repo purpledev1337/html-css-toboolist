@@ -30,25 +30,24 @@ body {
 
 /* main */
 .container {
-    padding: 2% 20% 0;
+    padding: 2% 15% 0;
 }
 
 .buttonbox {
     background-color: white;
-    padding: 20px 50px;
+    padding: 20px 100px;
 }
 
 .button {
     font-size: 20px;
     text-decoration: none;
-    border-radius: 10%;
-    padding: 10px;
+    border-radius: 8%;
+    padding: 8px;
 }
 
 #taskbutton {
     background-color: rgb(29, 115, 172);
     color: white;
-
 }
 
 #sectionbutton {
@@ -56,7 +55,11 @@ body {
     border: solid 1px lightgray;
 }
 
-
-/* .contentbox {
+.contentbox {
     background-color: white;
-} */
+    margin-top: 1px;
+}
+
+h2::before {
+    content: ' \25BC';
+}
