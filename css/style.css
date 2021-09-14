@@ -36,7 +36,7 @@ body {
     padding: 2% 15% 0;
 }
 
-.buttonbox {
+#actionbox {
     background-color: white;
     padding: 20px 80px;
     font-size: 20px;
@@ -70,22 +70,22 @@ body {
     padding: 25px 80px;
 }
 
-.content h2 {
+#timeline {
     font-size: 30px;
     margin: 10px;
 }
 
-#item {
+.item {
     font-size: 25px;
     display: inline-block;
 }
 
-h2::before {
+#timeline::before {
     content: ' \25BC';
     font-size: 20px;
 }
 
-.itemcheck::before {
+#itemcheck::before {
     content: "\2714";
     color: green;
     border: 2px solid green;
@@ -93,7 +93,7 @@ h2::before {
     margin: 0 20px;
 }
 
-.itemcheckno::before {
+#itemcheckno::before {
     content: "\2717";
     color: red;
     border: 2px solid red;
@@ -105,26 +105,26 @@ h2::before {
     margin-top: 15px;
 }
 
-#editorial {
+#topiceditorial {
     background-color: royalblue;
 }
 
-#q1goals {
+#topicq1goals {
     background-color: slateblue;
 }
 
-#recruiting {
+#topicrecruiting {
     background-color: rgb(10, 92, 10);
 }
 
-#mobile {
+#topicmobile {
     background-color: orange;
 }
 
-#website {
+#topicwebsite {
     background-color: orchid;
 }
 
-#sales {
+#topicsales {
     background-color: greenyellow;
 }
