@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logotext {
+    display: inline-block;
+    font-size: 60px;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+    margin-bottom: 80px;
+}
+
+#logoimg {
+    margin-left: 25px;
+    height: 80px;
+}
