@@ -98,6 +98,10 @@ h2::before {
     margin: 0 20px;
 }
 
+#itemblock {
+    margin-top: 15px;
+}
+
 #editorial {
     background-color: royalblue;
 }
