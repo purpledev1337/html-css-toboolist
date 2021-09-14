@@ -63,3 +63,12 @@ body {
 h2::before {
     content: ' \25BC';
 }
+
+.vitem::before {
+    content: "\2713";
+}
+
+.xitem::before {
+    content: "\2717";
+}
+
