@@ -36,18 +36,19 @@ body {
 .buttonbox {
     background-color: white;
     padding: 20px 100px;
+    font-size: 20px;
 }
 
 .button {
-    font-size: 20px;
     text-decoration: none;
-    border-radius: 8%;
     padding: 8px;
+    border-radius: 8%;
+    display: inline-block;
+    color: white;
 }
 
 #taskbutton {
     background-color: rgb(29, 115, 172);
-    color: white;
 }
 
 #sectionbutton {
@@ -60,15 +61,38 @@ body {
     margin-top: 1px;
 }
 
+.content {
+    padding: 25px 80px;
+}
+
+.content h2 {
+    font-size: 30px;
+}
+
+#item {
+    font-size: 30px;
+}
+
 h2::before {
     content: ' \25BC';
+    font-size: 20px;
 }
 
-.vitem::before {
-    content: "\2713";
+.itemcheck::before {
+    content: "\2714";
+    color: lime;
+    border: 2px solid lime;
+    border-radius: 50%;
 }
 
-.xitem::before {
+.itemcheckno::before {
     content: "\2717";
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+#editorial {
+    background-color: royalblue;
 }
 
